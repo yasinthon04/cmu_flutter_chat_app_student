@@ -226,7 +226,7 @@ class _ChatPageState extends State<ChatPage> {
                           borderRadius: BorderRadius.circular(20),
                         ),
                         child: Image.network(
-                          '',
+                          widget.userAvatar,
                           width: 40,
                           height: 40,
                           fit: BoxFit.cover,
@@ -280,7 +280,7 @@ class _ChatPageState extends State<ChatPage> {
                           borderRadius: BorderRadius.circular(20),
                         ),
                         child: Image.network(
-                          '',
+                          widget.peerAvatar,
                           width: 40,
                           height: 40,
                           fit: BoxFit.cover,
